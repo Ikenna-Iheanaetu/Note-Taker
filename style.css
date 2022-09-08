@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #020312;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: #1f29b4;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container{
+  margin-right: 10px;
+}
+
+.container .entry .sub-header{
+    margin-bottom: 5px;
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+    color: gray;
+    font-weight: 600;
+}
+
+#head-entry-text{
+    padding: 20px 10px;
+    margin: 15px 5px;
+    border-radius: 0.5rem;
+    background-color: #12141c;
+    color: gray;
+    outline: none;
+    width: 100%;
+    resize: none;
+    border: 0;
+    font-size: 1rem;
+    height: auto;
+}
+
+.addNote{
+    background-color: gray;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: .5rem;
+    outline: none;
+}
+
+.addNote:hover{
+    background-color: #12141c;
+    color: gray;
+    transition: all ease .5s;
+    transform: scale(1.01) translateY(-5px);
+    border: 0;
+}
+
+/* cards */
+#cards{
+    padding: 2% 3%;
+}
+
+.card-note{
+    padding: 15px 20px;
+    background-color: #12141c;
+    color: gray;
+    width: 400px;
+    margin: 10px;
+    border-radius: .5rem;
+    display: inline-block;
+    border-top: 2px solid #1f29b4;
+}
+
+.card-note:hover{
+    transition: all ease .3s;
+    transform: scale(1.01) translateY(-5px);
+}
+
+/* card buttons */
+.btn{
+    padding: 10px 10px;
+    border-radius: .5rem;
+    outline: none;
+    margin-top: 10px;
+    background-color: gray;
+    border: 0;
+    margin-left: 5px;
+}
+
+.btn:hover{
+    transition: all ease .3s;
+    transform: scale(1.01) translateY(-5px);
+    border: 1px solid #1f29b4;
+    background: transparent;
+    color: gray;
+}
+
+/* Media Queries  */
+@media (max-width: 450px){
+    .card-note{
+        padding: 10px 10px;
+        width: 370px;
+    }
+}
+@media (max-width: 420px){
+    .card-note{
+        width: 350px;
+    }
+}
+@media (max-width: 395px){
+    .card-note{
+        width: 310px;
+    }
+}
+@media (max-width: 350px){
+    .card-note{
+        width: 290px;
+    }
+}
+@media (max-width: 330px){
+    .card-note{
+        width: 260px;
+    }
+}
+@media (max-width: 300px){
+    .card-note{
+        width: 240px;
+    }
+    .para{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
